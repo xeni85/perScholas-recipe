@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: burlywood;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-class a {
+    text-decoration: none;
+    color: green;
+    margin-right: .3rem;
+    border-right: .1rem turquoise;
+
+}
+
+.nav-class {
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    background-color: beige;
+    padding: 0.5rem;
+}
+
+img {
+    width: 20rem;
+    margin: 1rem;
+}
+
+ul li {
+    text-align: center;
+    list-style: none;
+}
+
+ol {
+    background-image: url("https://thumbs.gfycat.com/MiserlyDelectableDrever-max-1mb.gif");
+    height: 10rem;
+    width: 12rem;
+    color: yellowgreen;
+}
+
+button {
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 2rem;
+}
+
+span {
+    color: blue;
+}
